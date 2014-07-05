@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="554.2832"
+   height="393.64658"
+   id="svg4216"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="coding.svg">
+  <defs
+     id="defs4218">
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect3832"
+       is_visible="true"
+       pattern="m -7.8865785,5.84191 0,10 10,-5 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect4835"
+       is_visible="true"
+       pattern="M 0,0 0,10 10,5 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect4817"
+       is_visible="true"
+       pattern="m -0.6444253,868.47282 0,10 9.9999999,-5 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect4802"
+       is_visible="true"
+       pattern="m -3.8665526,856.22873 0,10 10,-5 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.0621749"
+     inkscape:cx="303.0696"
+     inkscape:cy="170.81579"
+     inkscape:document-units="px"
+     inkscape:current-layer="g3847"
+     showgrid="false"
+     fit-margin-top="25"
+     fit-margin-left="75"
+     fit-margin-right="75"
+     fit-margin-bottom="25"
+     inkscape:window-width="1280"
+     inkscape:window-height="719"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4221">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(107.05866,-680.86582)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="code"
+     transform="translate(107.05866,171.49636)">
+    <g
+       id="COMPUTER"
+       inkscape:label="#g3870">
+      <g
+         id="g3847">
+        <rect
+           transform="translate(0,-852.36218)"
+           style="fill:#000000;fill-opacity:1;stroke:#333333;stroke-width:8.67981625;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           id="rect4224"
+           width="317.71051"
+           height="220.38368"
+           x="10.217436"
+           y="751.05963" />
+        <rect
+           transform="translate(0,-852.36218)"
+           style="fill:#f2f2f2;fill-opacity:1;stroke:none"
+           id="rect4796"
+           width="308.76089"
+           height="48.10405"
+           x="14.692234"
+           y="918.86444" />
+        <rect
+           transform="translate(0,-852.36218)"
+           style="fill:#333333;fill-opacity:1;stroke:none"
+           id="rect4848"
+           width="43.49445"
+           height="29.703526"
+           x="147.32547"
+           y="973.93097" />
+        <rect
+           transform="translate(0,-852.36218)"
+           style="fill:#333333;fill-opacity:1;stroke:#333333;stroke-width:8.02579784;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           id="rect4850"
+           width="157.06102"
+           height="4.7161131"
+           x="90.542183"
+           y="1000.452" />
+        <g
+           id="g3834"
+           transform="matrix(0.42523629,0,0,0.42523629,214.56539,-293.08552)">
+          <g
+             style="fill:#333333;fill-opacity:1"
+             transform="matrix(1.4605121,0,0,1.4605121,-30.836229,-595.94988)"
+             id="g4842">
+            <path
+               style="fill:#333333;fill-opacity:1;stroke:none"
+               d="m -55.558957,1009.3373 c -10.332178,2.0972 -16.988094,12.188 -14.890886,22.5202 2.097207,10.3322 12.153724,16.995 22.485901,14.8978 7.147477,-1.4508 12.572746,-6.7193 14.526931,-13.2499 -6.34824,0.8728 -12.36834,-3.3348 -13.660891,-9.7028 -0.983945,-4.8475 1.055796,-9.5772 4.808294,-12.311 -3.877284,-2.2167 -8.548425,-3.1125 -13.269349,-2.1543 z"
+               id="path4798"
+               inkscape:connector-curvature="0" />
+          </g>
+          <path
+             inkscape:connector-curvature="0"
+             inkscape:original-d="m -113.34857,877.39848 c -2.6612,-8.9277 -11.77676,-9.22339 -19.21475,-6.62256"
+             inkscape:path-effect="#path-effect3832"
+             id="path3830"
+             d="m -118.14022,878.82679 9.5833,-2.85662 c -1.16541,-2.52362 -3.01813,-4.80526 -5.3727,-6.44262 0,0 0,0 0,0 -2.13489,-1.40451 -4.43324,-2.07895 -6.63918,-2.20357 0,0 0,0 0,0 -4.63386,-0.20745 -8.62204,1.38574 -11.99452,3.45194 3.92518,-0.48556 7.92644,-0.19845 10.80282,1.4281 1.29109,0.72935 2.32562,1.69342 2.83491,2.7316 0,0 0,0 0,0 0.62691,1.11693 0.79128,2.52495 0.78537,3.89117 z"
+             style="fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-size:7.37707663px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:132.00000525%;letter-spacing:0px;word-spacing:0px;fill:#01ff1e;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
+           x="26.438728"
+           y="-79.816383"
+           id="CODE-TEXT"
+           sodipodi:linespacing="132.00001%"
+           inkscape:label="#text4864"><tspan
+             sodipodi:role="line"
+             id="tspan4866"
+             x="26.438728"
+             y="-79.816383">this.randombranch = function() {</tspan><tspan
+             sodipodi:role="line"
+             x="26.438728"
+             y="-70.078644"
+             id="tspan4868" /><tspan
+             sodipodi:role="line"
+             x="26.438728"
+             y="-60.3409"
+             id="tspan4870"> // var colorlist = [&quot;#e67e22&quot;, &quot;#9b59b6&quot;, &quot;#3498db&quot;, &quot;#2ecc71&quot;, &quot;#1abc9c&quot;];</tspan><tspan
+             sodipodi:role="line"
+             x="26.438728"
+             y="-50.603157"
+             id="tspan4872"> var colorlist = [&quot;rgba(200,100,42,0.98)&quot;, &quot;rgba(100,50,50,0.98)&quot;, &quot;rgba(100,50,200,0.98)&quot;];</tspan><tspan
+             sodipodi:role="line"
+             x="26.438728"
+             y="-40.865417"
+             id="tspan4874"> var pause = 3000;</tspan><tspan
+             sodipodi:role="line"
+             x="26.438728"
+             y="-31.127676"
+             id="tspan4876"> var length = $(&quot;#branch-list li&quot;).length;</tspan><tspan
+             sodipodi:role="line"
+             x="26.438728"
+             y="-21.389935"
+             id="tspan4878"> var colorlength = colorlist.length;</tspan><tspan
+             sodipodi:role="line"
+             x="26.438728"
+             y="-11.652193"
+             id="tspan4880"> var temp = -1;</tspan><tspan
+             sodipodi:role="line"
+             x="26.438728"
+             y="-1.9144511"
+             id="tspan4882"> // make tempcolor be the original background color</tspan><tspan
+             sodipodi:role="line"
+             x="26.438728"
+             y="7.8232903"
+             id="tspan4884"> var tempcolor = &quot;#2dccb7&quot;;</tspan></text>
+      </g>
+    </g>
+    <rect
+       style="fill:none;stroke:#f2f2f2;stroke-width:2.76420641;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.76420632, 2.76420632;stroke-dashoffset:0"
+       id="OUTLINE"
+       width="401.51901"
+       height="340.88235"
+       x="-30.676552"
+       y="-145.11426"
+       inkscape:label="#rect3868" />
+  </g>
+</svg>
