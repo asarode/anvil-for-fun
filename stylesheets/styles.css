@@ -142,22 +142,24 @@ header {
 
 /* line 42, ../sass/styles.scss */
 .header-nav .brand-group {
-  margin: 7px 0 -10px 0;
+  margin: 0px 0 -10px 0;
+  padding: 7px 0 0 20px;
   display: inline-block;
 }
-/* line 47, ../sass/styles.scss */
+/* line 48, ../sass/styles.scss */
 .header-nav .brand-group img {
   height: 60px;
 }
-/* line 51, ../sass/styles.scss */
+/* line 52, ../sass/styles.scss */
 .header-nav .brand-group span {
-  font-size: 55px;
+  font-size: 50px;
   vertical-align: top;
   position: relative;
-  bottom: 10px;
+  bottom: 2px;
   color: #e6392f;
+  font-weight: bold;
 }
-/* line 60, ../sass/styles.scss */
+/* line 62, ../sass/styles.scss */
 .header-nav ul {
   list-style: none;
   padding: 0 !important;
@@ -165,34 +167,34 @@ header {
   display: inline;
   float: right;
 }
-/* line 68, ../sass/styles.scss */
+/* line 70, ../sass/styles.scss */
 .header-nav ul li {
   display: inline;
   height: 100%;
   margin: 0;
   float: right;
 }
-/* line 73, ../sass/styles.scss */
+/* line 75, ../sass/styles.scss */
 .header-nav ul li a {
   display: inline-block;
   padding: 24px 25px;
   font-size: 18px;
 }
-/* line 78, ../sass/styles.scss */
+/* line 80, ../sass/styles.scss */
 .header-nav ul li a:hover {
   background-color: #f2f2f2;
 }
-/* line 85, ../sass/styles.scss */
+/* line 87, ../sass/styles.scss */
 .header-nav ul li:first-child a {
   padding: 24px 45px;
 }
-/* line 92, ../sass/styles.scss */
+/* line 94, ../sass/styles.scss */
 .header-nav ul .nav-pop-item {
   font-weight: bold;
   background-color: #fcfcfc;
 }
 
-/* line 103, ../sass/styles.scss */
+/* line 105, ../sass/styles.scss */
 .block, .hero-block, .info-block, footer {
   width: 100%;
   padding: 35px 0;
@@ -201,34 +203,34 @@ header {
   background-color: #ececec;
 }
 
-/* line 116, ../sass/styles.scss */
+/* line 118, ../sass/styles.scss */
 .hero-block img {
   width: 500px;
   height: 400px;
 }
 
-/* line 122, ../sass/styles.scss */
+/* line 124, ../sass/styles.scss */
 .info-block {
   background-color: #B31E15;
   color: white;
 }
-/* line 130, ../sass/styles.scss */
+/* line 132, ../sass/styles.scss */
 .info-block ul {
   list-style: none;
   padding: 0 !important;
 }
-/* line 134, ../sass/styles.scss */
+/* line 136, ../sass/styles.scss */
 .info-block ul li {
   font-size: 24px;
   line-height: 3;
 }
 
-/* line 142, ../sass/styles.scss */
+/* line 144, ../sass/styles.scss */
 .subscription-bar {
   text-align: center;
   margin: 75px 0;
 }
-/* line 146, ../sass/styles.scss */
+/* line 148, ../sass/styles.scss */
 .subscription-bar input {
   border: 3px solid black;
   line-height: 30px;
@@ -236,13 +238,13 @@ header {
   padding: 5px;
   font-size: 18px;
 }
-/* line 156, ../sass/styles.scss */
+/* line 158, ../sass/styles.scss */
 .subscription-bar input[type="email"] {
   width: 400px;
   border-radius: 8px 0 0 8px;
   padding-left: 20px;
 }
-/* line 161, ../sass/styles.scss */
+/* line 163, ../sass/styles.scss */
 .subscription-bar input[type="submit"] {
   width: 200px;
   border-radius: 0 8px 8px 0;
@@ -251,21 +253,21 @@ header {
   font-weight: bold;
 }
 
-/* line 172, ../sass/styles.scss */
+/* line 174, ../sass/styles.scss */
 footer {
   background-color: #fff;
 }
-/* line 176, ../sass/styles.scss */
+/* line 178, ../sass/styles.scss */
 footer ul {
   padding-left: 0 !important;
   list-style-type: none;
   display: inline;
 }
-/* line 181, ../sass/styles.scss */
+/* line 183, ../sass/styles.scss */
 footer ul li {
   display: inline;
 }
-/* line 184, ../sass/styles.scss */
+/* line 186, ../sass/styles.scss */
 footer ul li a {
   display: inline-block;
   padding: 10px 25px;
