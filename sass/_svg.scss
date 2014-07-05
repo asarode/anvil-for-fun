@@ -1,0 +1,67 @@
+#URL {
+	display: none;
+}
+
+#CODE-PATCH, #ANVIL-SPARK-1, #ANVIL-SPARK-2, #ANVIL-SPARK-3 {
+	fill: #333;
+    animation: strobe-colorful 8s infinite ease-in-out alternate;
+    -webkit-animation: strobe-colorful 8s infinite ease-in-out;
+}
+
+@keyframes strobe-colorful {
+    // sun flower
+    0% { fill: #f1c40f; }
+    // turquoise
+    20% {fill: #1abc9c; }
+    // orange
+    40% { fill: #f39c12; }
+    // pete river
+    60% { fill: #3498db; }
+    // alizarin
+    80% { fill: #e74c3c; }
+    // sun flower
+    100% { fill: #f1c40f; }
+}
+@-webkit-keyframes strobe-colorful {
+	// sun flower
+    0% { fill: #f1c40f; }
+    // turquoise
+    20% {fill: #1abc9c; }
+    // orange
+    40% { fill: #f39c12; }
+    // pete river
+    60% { fill: #3498db; }
+    // alizarin
+    80% { fill: #e74c3c; }
+    // sun flower
+    100% { fill: #f1c40f; }
+}
+
+
+#CLOUD-GROUP {
+    animation: drift 3s infinite linear alternate;
+    -webkit-animation: drift 3s infinite linear alternate;
+}
+
+
+
+@keyframes drift {
+    0% { -webkit-transform: translate(0px, 0px) }
+    50% { -webkit-transform: translate(0px, 4px)  }
+    100% { -webkit-transform: translate(0px, 0px) }
+}
+@-webkit-keyframes drift {
+    0% { -webkit-transform: translate(0px, 0px) }
+    50% { -webkit-transform: translate(0px, 4px)  }
+    100% { -webkit-transform: translate(0px, 0px) }
+}
+
+
+
+
+
+
+
+
+
+

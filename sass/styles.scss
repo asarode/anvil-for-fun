@@ -3,6 +3,8 @@
 // @import "variables";
 // @import "bootstrap";
 
+@import "svg";
+
 /* color of the branch text */
 $highlight: #fff;
 
@@ -35,10 +37,6 @@ header {
 	border-bottom: 1px solid #a2a2a2;
 }
 .header-nav {
-
-	a {
-		padding-left: 20px;
-	}
 
 
 	.brand-group {
@@ -147,7 +145,7 @@ header {
 
 	input {
 		border: 3px solid black;
-		height: 45px;
+		line-height: 30px;
 		vertical-align: middle;
 		padding: 5px;
 		
@@ -166,7 +164,6 @@ header {
 		background-color: #FFE100;
 		color: black;
 		font-weight: bold;
-
 		
 	}
 
@@ -194,9 +191,7 @@ footer {
 
 
 
-#URL {
-	display: none;
-}
+
 
 
 
