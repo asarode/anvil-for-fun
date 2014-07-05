@@ -17,22 +17,17 @@
   }
 
   /* line 15, ../sass/_svg.scss */
-  20% {
+  25% {
     fill: #1abc9c;
   }
 
   /* line 17, ../sass/_svg.scss */
-  40% {
+  50% {
     fill: #f39c12;
   }
 
-  /* line 19, ../sass/_svg.scss */
-  60% {
-    fill: #3498db;
-  }
-
   /* line 21, ../sass/_svg.scss */
-  80% {
+  75% {
     fill: #e74c3c;
   }
 
@@ -49,22 +44,17 @@
   }
 
   /* line 29, ../sass/_svg.scss */
-  20% {
+  25% {
     fill: #1abc9c;
   }
 
   /* line 31, ../sass/_svg.scss */
-  40% {
+  50% {
     fill: #f39c12;
   }
 
-  /* line 33, ../sass/_svg.scss */
-  60% {
-    fill: #3498db;
-  }
-
   /* line 35, ../sass/_svg.scss */
-  80% {
+  75% {
     fill: #e74c3c;
   }
 
@@ -133,24 +123,25 @@ body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 0;
   margin: 0;
+  min-width: 860px;
 }
 
-/* line 38, ../sass/styles.scss */
+/* line 39, ../sass/styles.scss */
 header {
   border-bottom: 1px solid #a2a2a2;
 }
 
-/* line 44, ../sass/styles.scss */
+/* line 45, ../sass/styles.scss */
 .header-nav .brand-group {
   margin: 0px 0 -10px 0;
   padding: 7px 0 0 20px;
   display: inline-block;
 }
-/* line 50, ../sass/styles.scss */
+/* line 51, ../sass/styles.scss */
 .header-nav .brand-group img {
   height: 60px;
 }
-/* line 54, ../sass/styles.scss */
+/* line 55, ../sass/styles.scss */
 .header-nav .brand-group span {
   font-size: 50px;
   vertical-align: top;
@@ -159,7 +150,7 @@ header {
   color: #e6392f;
   font-weight: bold;
 }
-/* line 64, ../sass/styles.scss */
+/* line 65, ../sass/styles.scss */
 .header-nav ul {
   list-style: none;
   padding: 0 !important;
@@ -167,38 +158,38 @@ header {
   display: inline;
   float: right;
 }
-/* line 72, ../sass/styles.scss */
+/* line 73, ../sass/styles.scss */
 .header-nav ul li {
   display: inline;
   height: 100%;
   margin: 0;
   float: right;
 }
-/* line 77, ../sass/styles.scss */
+/* line 78, ../sass/styles.scss */
 .header-nav ul li a {
   display: inline-block;
   padding: 24px 25px;
   font-size: 18px;
 }
-/* line 82, ../sass/styles.scss */
+/* line 83, ../sass/styles.scss */
 .header-nav ul li a:hover {
   background-color: #f2f2f2;
 }
-/* line 86, ../sass/styles.scss */
+/* line 87, ../sass/styles.scss */
 .header-nav ul li a.active {
   color: #e6392f;
 }
-/* line 93, ../sass/styles.scss */
+/* line 94, ../sass/styles.scss */
 .header-nav ul li:first-child a {
   padding: 24px 45px;
 }
-/* line 100, ../sass/styles.scss */
+/* line 101, ../sass/styles.scss */
 .header-nav ul .nav-pop-item {
   font-weight: bold;
   background-color: #fcfcfc;
 }
 
-/* line 111, ../sass/styles.scss */
+/* line 112, ../sass/styles.scss */
 .block, .hero-block, .info-block, footer, .story-block, .team-block, .advisors-block {
   width: 100%;
   padding: 35px 0;
@@ -207,34 +198,38 @@ header {
   background-color: #ececec;
 }
 
-/* line 124, ../sass/styles.scss */
+/* line 122, ../sass/styles.scss */
+.hero-block {
+  background-image: url(../img/shattered_@2X.png);
+}
+/* line 126, ../sass/styles.scss */
 .hero-block img {
   width: 500px;
   height: 400px;
 }
 
-/* line 130, ../sass/styles.scss */
+/* line 132, ../sass/styles.scss */
 .info-block {
   background-color: #B31E15;
   color: white;
 }
-/* line 138, ../sass/styles.scss */
+/* line 140, ../sass/styles.scss */
 .info-block ul {
   list-style: none;
   padding: 0 !important;
 }
-/* line 142, ../sass/styles.scss */
+/* line 144, ../sass/styles.scss */
 .info-block ul li {
   font-size: 24px;
   line-height: 3;
 }
 
-/* line 150, ../sass/styles.scss */
+/* line 152, ../sass/styles.scss */
 .subscription-bar {
   text-align: center;
   margin: 75px 0;
 }
-/* line 154, ../sass/styles.scss */
+/* line 156, ../sass/styles.scss */
 .subscription-bar input {
   border: 3px solid black;
   line-height: 30px;
@@ -242,13 +237,13 @@ header {
   padding: 5px;
   font-size: 18px;
 }
-/* line 164, ../sass/styles.scss */
+/* line 166, ../sass/styles.scss */
 .subscription-bar input[type="email"] {
   width: 400px;
   border-radius: 8px 0 0 8px;
   padding-left: 20px;
 }
-/* line 169, ../sass/styles.scss */
+/* line 171, ../sass/styles.scss */
 .subscription-bar input[type="submit"] {
   width: 200px;
   border-radius: 0 8px 8px 0;
@@ -257,43 +252,43 @@ header {
   font-weight: bold;
 }
 
-/* line 181, ../sass/styles.scss */
+/* line 183, ../sass/styles.scss */
 footer {
   background-color: #fff;
 }
-/* line 185, ../sass/styles.scss */
+/* line 187, ../sass/styles.scss */
 footer ul {
   padding-left: 0 !important;
   list-style-type: none;
   display: inline;
 }
-/* line 190, ../sass/styles.scss */
+/* line 192, ../sass/styles.scss */
 footer ul li {
   display: inline;
 }
-/* line 193, ../sass/styles.scss */
+/* line 195, ../sass/styles.scss */
 footer ul li a {
   display: inline-block;
   padding: 10px 25px;
 }
 
-/* line 204, ../sass/styles.scss */
+/* line 206, ../sass/styles.scss */
 .story-block {
   background-color: #b31e15;
   text-align: left;
 }
-/* line 209, ../sass/styles.scss */
+/* line 211, ../sass/styles.scss */
 .story-block .story-group {
   display: inline-block;
   padding-left: 25px;
   width: 600px;
   text-align: center;
 }
-/* line 217, ../sass/styles.scss */
+/* line 219, ../sass/styles.scss */
 .story-block h1 {
   color: #fff;
 }
-/* line 223, ../sass/styles.scss */
+/* line 225, ../sass/styles.scss */
 .story-block p {
   display: inline-block;
   width: 100%;
@@ -303,7 +298,7 @@ footer ul li a {
   color: #fff;
 }
 
-/* line 234, ../sass/styles.scss */
+/* line 236, ../sass/styles.scss */
 .profile-pic, .team-block .team-item .profile-cofounder, .team-block .team-item .profile-team {
   border-radius: 100%;
   border: 8px solid black;
@@ -311,7 +306,11 @@ footer ul li a {
   height: 150px;
 }
 
-/* line 249, ../sass/styles.scss */
+/* line 243, ../sass/styles.scss */
+.team-block {
+  background-image: url(../img/shattered_@2X.png);
+}
+/* line 251, ../sass/styles.scss */
 .team-block .team-item {
   width: 325px;
   height: 500px;
@@ -324,27 +323,45 @@ footer ul li a {
   background-color: #fff;
   display: inline-block;
 }
-/* line 263, ../sass/styles.scss */
+/* line 265, ../sass/styles.scss */
 .team-block .team-item p {
   text-align: left;
   font-size: 14px;
 }
-/* line 268, ../sass/styles.scss */
+/* line 270, ../sass/styles.scss */
 .team-block .team-item .profile-cofounder {
   border: 2px solid #b31e15;
 }
-/* line 274, ../sass/styles.scss */
+/* line 276, ../sass/styles.scss */
 .team-block .team-item .profile-team {
   border: 2px solid #000;
 }
-/* line 279, ../sass/styles.scss */
+/* line 281, ../sass/styles.scss */
 .team-block .team-item ul {
   padding-left: 85px !important;
   text-align: left;
   list-style-type: dash;
 }
 
-/* line 290, ../sass/styles.scss */
+/* line 292, ../sass/styles.scss */
 .advisors-block .advisor-group {
   width: 400px;
+}
+
+@media (max-width: 1200px) {
+  /* line 300, ../sass/styles.scss */
+  .svg-computer {
+    width: 400px;
+  }
+}
+@media (max-width: 1050px) {
+  /* line 306, ../sass/styles.scss */
+  .svg-computer {
+    display: none;
+  }
+
+  /* line 309, ../sass/styles.scss */
+  .story-block {
+    text-align: center;
+  }
 }
