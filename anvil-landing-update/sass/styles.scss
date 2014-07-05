@@ -1,0 +1,201 @@
+// customize bootstrap variables here:
+
+@import "variables";
+@import "bootstrap";
+
+/* color of the branch text */
+$highlight: #fff;
+
+
+$strip: #2dccb7;
+
+/* color of the anvilapp.io URL */
+$subdomain: rgba(0,0,0,1);
+
+/* the red in Anvil's logo */
+$anvil-red: rgba(230, 57, 47, 1);
+
+a {
+	color: #333;
+	&:hover {
+		color: $anvil-red;
+		text-decoration: none;
+	}
+}
+
+body {
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	
+}
+
+
+header {
+	border-bottom: 1px solid #333;
+}
+.header-nav {
+
+	.brand-group {
+		margin: 7px 0 -10px 20px;
+		display: inline-block;
+	
+		img {
+			height: 60px;
+
+		}
+		span {
+			font-size: 55px;
+			vertical-align: top;
+			position: relative;
+			bottom: 10px;
+			color: $anvil-red;
+		}
+	}
+
+	ul {
+		list-style: none;
+		padding: 0 !important;
+		margin-bottom: 0;
+		display: inline;
+		float: right;
+
+		
+		li {
+			display: inline;
+			height: 100%;
+			margin: 0;
+			float: right;
+			a {
+				display: inline-block;
+				padding: 25px 25px;
+				font-size: 18px;
+
+				&:hover {
+				background-color: #f2f2f2;
+			}
+			}
+			
+
+			&:first-child {
+				a {
+					padding: 25px 45px;
+				}
+			}
+
+		}
+
+		.nav-pop-item {
+			// border-right: 1px solid #ccc;
+			// border-left: 1px solid #ccc;
+			font-weight: bold;
+			background-color: #fcfcfc;
+		}
+
+		
+	}
+}
+
+.block {
+	width: 100%;
+	padding: 35px 0;
+	// border-top: 3px solid rgba(230, 57, 47, .05);
+	border-top: 3px solid #ccc;
+	text-align: center;
+	background-color: #f2f2f2;
+}
+
+.hero-block {
+	@extend .block;
+
+	img {
+		width: 500px;
+		height: 400px;
+	}
+}
+
+.info-block {
+	@extend .block;
+	background-color: #B31E15;
+	color: white;
+
+	h2 {
+		
+	}
+	ul {
+		list-style: none;
+		padding: 0 !important;
+
+		li {
+			font-size: 24px;
+			line-height: 3;
+		}
+	}
+
+}
+
+.subscription-bar {
+	text-align: center;
+	margin: 75px 0;
+
+	input {
+		border: 3px solid black;
+		height: 45px;
+		vertical-align: middle;
+		padding: 5px;
+		
+		font-size: 18px;
+
+	}
+
+	input[type="email"] {
+		width: 400px;
+		border-radius: 8px 0 0 8px;
+		padding-left: 20px;
+	}
+	input[type="submit"] {
+		width: 200px;
+		border-radius: 0 8px 8px 0;
+		background-color: #FFE100;
+		color: black;
+		font-weight: bold;
+
+		
+	}
+
+}
+
+footer {
+	@extend .block;
+	background-color: #fff;
+
+	ul {
+		padding-left: 0 !important;
+		list-style-type: none;
+		display: inline;
+
+		li {
+			display: inline;
+
+			a {
+				display: inline-block;
+				padding: 10px 25px;
+			}
+		}
+	}
+}
+
+
+
+#URL {
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
