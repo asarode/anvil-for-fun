@@ -7911,7 +7911,7 @@ body {
 
 /* line 32, ../sass/styles.scss */
 header {
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #a2a2a2;
 }
 
 /* line 37, ../sass/styles.scss */
@@ -7972,37 +7972,37 @@ header {
   padding: 35px 0;
   border-top: 3px solid #ccc;
   text-align: center;
-  background-color: #f2f2f2;
+  background-color: #ececec;
 }
 
-/* line 109, ../sass/styles.scss */
+/* line 110, ../sass/styles.scss */
 .hero-block img {
   width: 500px;
   height: 400px;
 }
 
-/* line 115, ../sass/styles.scss */
+/* line 116, ../sass/styles.scss */
 .info-block {
   background-color: #B31E15;
   color: white;
 }
-/* line 123, ../sass/styles.scss */
+/* line 124, ../sass/styles.scss */
 .info-block ul {
   list-style: none;
   padding: 0 !important;
 }
-/* line 127, ../sass/styles.scss */
+/* line 128, ../sass/styles.scss */
 .info-block ul li {
   font-size: 24px;
   line-height: 3;
 }
 
-/* line 135, ../sass/styles.scss */
+/* line 136, ../sass/styles.scss */
 .subscription-bar {
   text-align: center;
   margin: 75px 0;
 }
-/* line 139, ../sass/styles.scss */
+/* line 140, ../sass/styles.scss */
 .subscription-bar input {
   border: 3px solid black;
   height: 45px;
@@ -8010,13 +8010,13 @@ header {
   padding: 5px;
   font-size: 18px;
 }
-/* line 149, ../sass/styles.scss */
+/* line 150, ../sass/styles.scss */
 .subscription-bar input[type="email"] {
   width: 400px;
   border-radius: 8px 0 0 8px;
   padding-left: 20px;
 }
-/* line 154, ../sass/styles.scss */
+/* line 155, ../sass/styles.scss */
 .subscription-bar input[type="submit"] {
   width: 200px;
   border-radius: 0 8px 8px 0;
@@ -8025,27 +8025,27 @@ header {
   font-weight: bold;
 }
 
-/* line 166, ../sass/styles.scss */
+/* line 167, ../sass/styles.scss */
 footer {
   background-color: #fff;
 }
-/* line 170, ../sass/styles.scss */
+/* line 171, ../sass/styles.scss */
 footer ul {
   padding-left: 0 !important;
   list-style-type: none;
   display: inline;
 }
-/* line 175, ../sass/styles.scss */
+/* line 176, ../sass/styles.scss */
 footer ul li {
   display: inline;
 }
-/* line 178, ../sass/styles.scss */
+/* line 179, ../sass/styles.scss */
 footer ul li a {
   display: inline-block;
   padding: 10px 25px;
 }
 
-/* line 188, ../sass/styles.scss */
+/* line 189, ../sass/styles.scss */
 #URL {
   display: none;
 }
