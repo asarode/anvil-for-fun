@@ -8070,7 +8070,6 @@ body {
   font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 0;
   margin: 0;
-  min-width: 887px;
 }
 
 /* line 70, ../sass/styles.scss */
@@ -8270,6 +8269,10 @@ footer ul li.footer-divider {
   border-color: #1abc9c;
   box-sizing: border-box;
 }
+/* line 306, ../sass/styles.scss */
+.team-block h1 {
+  margin-bottom: 50px;
+}
 /* line 310, ../sass/styles.scss */
 .team-block .team-item {
   width: 325px;
@@ -8312,7 +8315,7 @@ footer ul li.footer-divider {
   padding: 8px 0px;
   margin: 0 16px;
   box-sizing: border-box;
-  border-top: 1px solid #e0e0e0;
+  border-top: 1px dashed #e0e0e0;
 }
 /* line 367, ../sass/styles.scss */
 .team-block .team-item .team-contact-bar li {
@@ -8338,7 +8341,7 @@ footer ul li.footer-divider {
 
 /* line 396, ../sass/styles.scss */
 .contact-block {
-  border-color: #9b59b6;
+  border-color: #f1c40f;
 }
 /* line 407, ../sass/styles.scss */
 .contact-block .contact-info-group {
@@ -8364,5 +8367,5 @@ footer ul li.footer-divider {
 #menlo-park-map {
   width: 100%;
   height: 400px;
-  background-color: #ccc;
+  padding-top: 50px;
 }
