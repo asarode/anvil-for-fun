@@ -1,7 +1,7 @@
 // customize bootstrap variables here:
 
-// @import "variables";
-// @import "bootstrap";
+@import "variables";
+@import "bootstrap";
 
 @import "svg";
 
@@ -17,7 +17,39 @@ $subdomain: rgba(0,0,0,1);
 /* the red in Anvil's logo */
 $anvil-red: rgba(230, 57, 47, 1);
 
-$block-red: #B31E15;
+$block-red: rgba(179, 30, 21, 1);
+
+
+@keyframes strobe-border {
+	// sun flower
+    0% { border-color: #f1c40f; }
+    // turquoise
+    25% { border-color: #1abc9c; }
+    // orange
+    50% { border-color: #f39c12; }
+    // pete river
+    // 60% { fill: #3498db; }
+    // alizarin
+    75% { border-color: #e74c3c; }
+    // sun flower
+    100% { border-color: #f1c40f; }
+}
+
+@-webkit-keyframes strobe-border {
+	// sun flower
+    0% { border-color: #f1c40f; }
+    // turquoise
+    25% { border-color: #1abc9c; }
+    // orange
+    50% { border-color: #f39c12; }
+    // pete river
+    // 60% { fill: #3498db; }
+    // alizarin
+    75% { border-color: #e74c3c; }
+    // sun flower
+    100% { border-color: #f1c40f; }
+}
+
 
 a {
 	color: #333;
@@ -32,7 +64,7 @@ body {
 	font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	padding: 0;
 	margin: 0;
-	min-width: 860px;
+	min-width: 887px;
 }
 
 .headline {
@@ -41,7 +73,7 @@ body {
 
 
 header {
-	border-bottom: 1px solid #a2a2a2;
+	// border-bottom: 1px solid #a2a2a2;
 }
 .header-nav {
 
@@ -81,7 +113,7 @@ header {
 			float: right;
 			a {
 				display: inline-block;
-				padding: 24px 25px;
+				padding: 20px 25px;
 				font-size: 18px;
 				border-top: 2px solid rgba(0,0,0,0);
 
@@ -98,7 +130,8 @@ header {
 
 			&:first-child {
 				a {
-					padding: 24px 45px;
+					padding-left: 45px;
+					padding-right: 45px;
 				}
 			}
 
@@ -116,18 +149,25 @@ header {
 }
 
 .block {
-	width: 100%;
-	padding: 35px 0;
+	@extend .row;
+	padding: 35px 25px;
+	margin: 0;
 	// border-top: 3px solid rgba(230, 57, 47, .05);
-	border-top: 3px solid #ccc;
+	box-sizing: border-box;
 	text-align: center;
 	// background-color: #f2f2f2;
-	background-color: #ececec;
+	background-color: #f2f2f2;
+	border: 8px solid rgba(0,0,0,0);
 }
 
 .hero-block {
 	@extend .block;
-	background-image: url(../img/shattered_@2X.png);
+	// background-image: url(../img/shattered_@2X.png);
+	border-color: $block-red;
+
+	animation: strobe-border 5s infinite ease-in-out;
+	-webkit-animation: strobe-border 5s infinite ease-in-out;
+
 
 	img {
 		width: 500px;
@@ -161,7 +201,7 @@ header {
 
 	input {
 		border: 3px solid black;
-		line-height: 30px;
+		line-height: 45px;
 		vertical-align: middle;
 		padding: 5px;
 		
@@ -191,17 +231,29 @@ footer {
 	background-color: #fff;
 
 	ul {
-		padding-left: 0 !important;
+		padding-left: 0;
+		margin: 0;
 		list-style-type: none;
-		display: inline;
+		display: block;
+
+		width: 100%;
+		position: relative;
+		clear: both;
 
 		li {
 			display: inline;
+			
 
 			a {
 				display: inline-block;
 				padding: 10px 25px;
 			}
+
+		}
+
+		li.footer-divider {
+			display: inline-block;
+			width: 100px;
 		}
 	}
 }
@@ -217,7 +269,7 @@ footer {
 	.story-group {
 		display: inline-block;
 		padding-left: 25px; 
-		width: 600px;
+		// width: 650px;
 		text-align: center;
 
 	}
@@ -241,15 +293,16 @@ footer {
 
 .profile-pic {
 	border-radius: 100%;
-	border: 8px solid black;
+	border: 4px solid #e0e0e0;
 	width: 150px;
 	height: 150px;
 }
 
 .team-block {
 	@extend .block;
-	background-image: url(../img/shattered_@2X.png);
-
+	// background-image: url(../img/shattered_@2X.png);
+	border-color: #1abc9c;
+	box-sizing: border-box;
 	h1 {
 		// color: #fff;
 	}
@@ -262,9 +315,10 @@ footer {
 		padding: 16px;
 		margin: 8px;
 		border: 2px solid #e0e0e0;
-		border-radius: 2px;
+		border-radius: 3px;
 		background-color: #fff;
-
+		position: relative;
+		border: 2px solid #e0e0e0;
 		
 
 		display: inline-block;
@@ -274,50 +328,132 @@ footer {
 			font-size: 14px;
 		}
 
+		.title {
+			display: block;
+			border-bottom: 1px solid #e0e0e0;
+			padding-bottom: 8px;
+			margin-bottom: 8px;
+			font-size: 16px;
+		}
+
 		.profile-cofounder {
 			@extend .profile-pic;
-			border: 2px solid $block-red;
+			border-color: #1abc9c;
 			
 		}
 
 		.profile-team {
 			@extend .profile-pic;
-			border: 2px solid #000;
+
 		}
 
-		ul {
-			padding-left: 85px !important;
-			text-align: left;
-			list-style-type: dash;
+		.team-contact-bar {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			
+			list-style: none;
+			padding: 8px 0px;
+			margin: 0 16px;
+			box-sizing: border-box;
+
+			border-top: 1px solid #e0e0e0;
+			// background-color: #f1c40f;
+			// background-color: #2ecc71;
+			// background-color: #e67e22;
+
+
+			li {
+				display: inline;
+				color: #333;
+
+				a {
+					color: #333;
+					padding: 0 4px;
+
+					&:hover {
+						text-decoration: underline;
+					}
+
+				}
+
+				&:last-child {
+					border-top: 1px solid rgba(255,255,255,0.2);
+					margin-top: 4px;
+					padding-top: 4px;
+					display: block;
+				}
+			}
 		}
+
 	}
 }
 
-.advisors-block {
+
+
+
+.contact-block {
 	@extend .block;
-	
-	.advisor-group {
-		width: 400px;
+	border-color: #9b59b6;
+
+	.map-group {
+		@extend .col-xs-12;
+		@extend .col-sm-12;
+		@extend .col-md-6;
+		@extend .col-lg-6;
 	}
+
+	.contact-info-group {
+		@extend .col-xs-12;
+		@extend .col-sm-12;
+		@extend .col-md-6;
+		@extend .col-lg-6;
+
+		text-align: left;
+
+		.contact-list {
+			// text-align: left;
+			list-style: none;
+			padding: 50px 0;
+			font-size: 24px;
+
+
+			li:before {
+				content: ">> ";
+				font-size: 14px;
+				vertical-align: middle;
+				position: relative;
+				bottom: 4px;
+				padding-right: 10px;
+			}
+		}
+	}
+}
+
+#menlo-park-map {
+	width: 100%;
+	height: 400px;
+	background-color: #ccc;
 }
 
 
 
-@media (max-width: 1200px) {
-	.svg-computer {
-		width: 400px;
-	}
-}
+// @media (max-width: 1200px) {
+// 	.svg-computer {
+// 		width: 400px;
+// 	}
+// }
 
-@media (max-width: 1050px) {
-	.svg-computer {
-		display: none;
-	}
-	.story-block {
-		text-align: center;
-	}
+// @media (max-width: 1200px) {
+// 	.svg-computer {
+// 		display: none;
+// 	}
+// 	.story-block {
+// 		text-align: center;
+// 	}
 
-}
+// }
 
 
 

@@ -4,8 +4,8 @@
 
 #CODE-PATCH, #ANVIL-SPARK-1, #ANVIL-SPARK-2, #ANVIL-SPARK-3 {
 	fill: #333;
-    animation: strobe-colorful 8s infinite ease-in-out alternate;
-    -webkit-animation: strobe-colorful 8s infinite ease-in-out;
+    animation: strobe-colorful 5s infinite ease-in-out alternate;
+    -webkit-animation: strobe-colorful 5s infinite ease-in-out;
 }
 
 @keyframes strobe-colorful {
