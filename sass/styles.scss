@@ -29,10 +29,14 @@ a {
 }
 
 body {
-	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	padding: 0;
 	margin: 0;
 	min-width: 860px;
+}
+
+.headline {
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
 }
 
 
@@ -45,7 +49,7 @@ header {
 	.brand-group {
 		margin: 0px 0 -10px 0;
 		padding: 7px 0 0 20px; 
-
+		font-family: 'Lato', Helvetica, Arial, sans-serif;
 		display: inline-block;
 	
 		img {
@@ -79,14 +83,16 @@ header {
 				display: inline-block;
 				padding: 24px 25px;
 				font-size: 18px;
+				border-top: 2px solid rgba(0,0,0,0);
 
 				&:hover {
-				background-color: #f2f2f2;
+				// background-color: #f2f2f2;
+					// border-top: 2px solid $anvil-red
+					transition: background-color, border-top .35s ease;
+					background-color: #f2f2f2;
+					border-top: 2px solid $anvil-red;
 				}
 
-				&.active {
-					color: $anvil-red;
-				}
 			}
 			
 
@@ -253,11 +259,12 @@ footer {
 		height: 500px;
 		vertical-align: top;
 		box-sizing: border-box;
-		padding: 24px;
+		padding: 16px;
 		margin: 8px;
 		border: 2px solid #e0e0e0;
 		border-radius: 2px;
 		background-color: #fff;
+
 		
 
 		display: inline-block;
