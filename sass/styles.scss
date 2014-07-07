@@ -109,7 +109,9 @@ header {
 		padding: 0 !important;
 		margin: 0;
 		display: inline;
-		float: right;
+		position: absolute;
+		top: 0;
+		right: 0;
 
 		
 		li {
