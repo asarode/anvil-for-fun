@@ -1,68 +1,13 @@
 // customize bootstrap variables here:
 
-@import "variables";
+@import "variables-bs";
 @import "bootstrap";
+@import "variables-main";
 
 @import "svg";
 
-/* color of the branch text */
-$highlight: #fff;
 
-
-$strip: #2dccb7;
-
-/* color of the anvilapp.io URL */
-$subdomain: rgba(0,0,0,1);
-
-/* the red in Anvil's logo */
-$anvil-red: rgba(230, 57, 47, 1);
-
-$block-red: rgba(179, 30, 21, 1);
-
-// $block-divider-color: rgba(51, 51, 51, .05);
-$block-divider-color: #e0e0e0;
-$block-divider-width: 2px;
-
-
-@keyframes strobe-border {
-	// sun flower
-    0% { border-color: #f1c40f; }
-    // turquoise
-    25% { border-color: #1abc9c; }
-    // orange
-    50% { border-color: #f39c12; }
-    // pete river
-    // 60% { fill: #3498db; }
-    // alizarin
-    75% { border-color: #e74c3c; }
-    // sun flower
-    100% { border-color: #f1c40f; }
-}
-
-// @-webkit-keyframes strobe-border {
-// 	// sun flower
-//     0% { border-color: #f1c40f; }
-//     // turquoise
-//     25% { border-color: #1abc9c; }
-//     // orange
-//     50% { border-color: #f39c12; }
-//     // pete river
-//     // 60% { fill: #3498db; }
-//     // alizarin
-//     75% { border-color: #e74c3c; }
-//     // sun flower
-//     100% { border-color: #f1c40f; }
-// }
-
-
-a {
-	color: #333;
-	text-decoration: none;
-	&:hover {
-		color: $anvil-red;
-		text-decoration: none;
-	}
-}
+// GLOBAL STYLES
 
 body {
 	font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -71,11 +16,46 @@ body {
 	// min-width: 887px;
 }
 
+
+a {
+	color: #333;
+	text-decoration: none;
+	&:hover {
+		color: $anvil-red;
+		text-decoration: underline;
+	}
+}
+
+
 .headline {
 	font-family: 'Lato', Helvetica, Arial, sans-serif;
 	font-weight: bold;
 }
 
+
+// Block
+.block {
+	@extend .row;
+	padding: 50px 25px;
+	margin: 0;
+	color: #333;
+	// border-top: 3px solid rgba(230, 57, 47, .05);
+	box-sizing: border-box;
+	text-align: center;
+	// background-color: #f2f2f2;
+	
+	// border: 3px solid rgba(0,0,0,0);
+	background-color: #f2f2f2;
+	border-bottom: $block-divider-width solid $block-divider-color;
+}
+
+.block-pop {
+	@extend .block;
+	background-color: $block-red;
+	color: white;
+}
+	
+// Navbar
 
 header {
 	border-bottom: $block-divider-width solid $block-divider-color;
@@ -103,8 +83,10 @@ header {
 		}
 
 		.beta-tag {
-			font-size: 18px;
+			font-size: 12px;
 			color: #333;
+			position: relative;
+			top: 7px;
 		}
 	}
 
@@ -153,26 +135,7 @@ header {
 	}
 }
 
-.block {
-	@extend .row;
-	padding: 50px 25px;
-	margin: 0;
-	color: #333;
-	// border-top: 3px solid rgba(230, 57, 47, .05);
-	box-sizing: border-box;
-	text-align: center;
-	// background-color: #f2f2f2;
-	
-	// border: 3px solid rgba(0,0,0,0);
-	background-color: #f2f2f2;
-	border-bottom: $block-divider-width solid $block-divider-color;
-}
-
-.block-pop {
-	@extend .block;
-	background-color: $block-red;
-	color: white;
-}
+// Home blocks
 
 .hero-block {
 	@extend .block-pop;
@@ -204,6 +167,8 @@ header {
 
 }
 
+// Conversion bar
+
 #subscription-bar {
 	text-align: center;
 	margin-top:25px;
@@ -223,18 +188,62 @@ header {
 		border-radius: 8px 0 0 8px;
 		padding-left: 20px;
 		color: #333;
+		transition: all 0.2s ease-in-out;
+	
+		&:hover {
+			border-color: #000;
+		}
+
+		&:focus {
+			outline: none;
+
+			-webkit-box-shadow: 0px 0px 10px 0px rgba(255,236,23,0.68);
+			-moz-box-shadow: 0px 0px 10px 0px rgba(255,236,23,0.68);
+			box-shadow: 0px 0px 10px 0px rgba(255,236,23,0.68);
+		}
+
+		&:focus::-webkit-input-placeholder { /* WebKit browsers */
+	    	opacity: 0.2;
+	    	transition: opacity 0.5s ease-in-out;
+		}
+
+		&:focus:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	    	color: $anvil-red;
+	    	opacity: 1;
+		}
+		&:focus::-moz-placeholder { /* Mozilla Firefox 19+ */
+	    	color: $anvil-red;
+	    	opacity: 1;
+		}
+		&:focus:-ms-input-placeholder { /* Internet Explorer 10+ */
+	    	color:    $anvil-red;
+		}
+		
 	}
+	
 	input[type="submit"] {
 		width: 200px;
 		border-radius: 0 8px 8px 0;
 		background-color: #FFE100;
 		color: #333;
 		font-weight: bold;
+		transition: all 0.2s ease-in-out;
 		
+		&:hover {
+			background-color: #fff53d;
+			border-color: #000;
+			text-decoration: underline;
+			-webkit-box-shadow: inset 0px 0px 0px 2px rgba(255,225,0,1);
+-moz-box-shadow: inset 0px 0px 0px 2px rgba(255,225,0,1);
+box-shadow: inset 0px 0px 0px 2px rgba(255,225,0,1);
+
+		}
 	}
 
 }
 
+
+// Footer
 
 footer {
 	@extend .block;
@@ -270,7 +279,7 @@ footer {
 }
 
 
-
+// About blocks
 
 .story-block {
 	@extend .block;
@@ -296,7 +305,6 @@ footer {
 
 .mission-block {
 	@extend .block-pop;
-
 }
 
 .profile-pic {
@@ -363,16 +371,9 @@ footer {
 
 			li {
 				display: inline;
-				color: #333;
 
 				a {
-					color: #333;
 					padding: 0 4px;
-
-					&:hover {
-						text-decoration: underline;
-					}
-
 				}
 
 				&:last-child {
@@ -388,7 +389,7 @@ footer {
 }
 
 
-
+// Contact block
 
 .contact-block {
 	@extend .block;
@@ -419,10 +420,14 @@ footer {
 	}
 }
 
+// List divider
+
 .divider {
 	display: inline-block;
 	width: 50px;
 }
+
+// Google map
 
 #menlo-park-map {
 	width: 100%;
