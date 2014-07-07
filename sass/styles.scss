@@ -161,7 +161,8 @@ header {
 
 		li {
 			font-size: 24px;
-			line-height: 3;
+			line-height: 2;
+			margin-bottom: 25px;
 		}
 	}
 
@@ -233,9 +234,10 @@ header {
 			background-color: #fff53d;
 			border-color: #000;
 			text-decoration: underline;
+
 			-webkit-box-shadow: inset 0px 0px 0px 2px rgba(255,225,0,1);
--moz-box-shadow: inset 0px 0px 0px 2px rgba(255,225,0,1);
-box-shadow: inset 0px 0px 0px 2px rgba(255,225,0,1);
+			-moz-box-shadow: inset 0px 0px 0px 2px rgba(255,225,0,1);
+			box-shadow: inset 0px 0px 0px 2px rgba(255,225,0,1);
 
 		}
 	}

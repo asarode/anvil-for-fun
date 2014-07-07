@@ -8124,15 +8124,16 @@ header {
 /* line 162, ../sass/styles.scss */
 .info-block ul li {
   font-size: 24px;
-  line-height: 3;
+  line-height: 2;
+  margin-bottom: 25px;
 }
 
-/* line 172, ../sass/styles.scss */
+/* line 173, ../sass/styles.scss */
 #subscription-bar {
   text-align: center;
   margin-top: 25px;
 }
-/* line 176, ../sass/styles.scss */
+/* line 177, ../sass/styles.scss */
 #subscription-bar input {
   border: 3px solid #333;
   line-height: 45px;
@@ -8140,7 +8141,7 @@ header {
   padding: 5px;
   font-size: 18px;
 }
-/* line 186, ../sass/styles.scss */
+/* line 187, ../sass/styles.scss */
 #subscription-bar input[type="email"] {
   width: 400px;
   border-radius: 8px 0 0 8px;
@@ -8148,41 +8149,41 @@ header {
   color: #333;
   transition: all 0.2s ease-in-out;
 }
-/* line 193, ../sass/styles.scss */
+/* line 194, ../sass/styles.scss */
 #subscription-bar input[type="email"]:hover {
   border-color: #000;
 }
-/* line 197, ../sass/styles.scss */
+/* line 198, ../sass/styles.scss */
 #subscription-bar input[type="email"]:focus {
   outline: none;
   -webkit-box-shadow: 0px 0px 10px 0px rgba(255, 236, 23, 0.68);
   -moz-box-shadow: 0px 0px 10px 0px rgba(255, 236, 23, 0.68);
   box-shadow: 0px 0px 10px 0px rgba(255, 236, 23, 0.68);
 }
-/* line 205, ../sass/styles.scss */
+/* line 206, ../sass/styles.scss */
 #subscription-bar input[type="email"]:focus::-webkit-input-placeholder {
   /* WebKit browsers */
   opacity: 0.2;
   transition: opacity 0.5s ease-in-out;
 }
-/* line 210, ../sass/styles.scss */
+/* line 211, ../sass/styles.scss */
 #subscription-bar input[type="email"]:focus:-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
   color: #e6392f;
   opacity: 1;
 }
-/* line 214, ../sass/styles.scss */
+/* line 215, ../sass/styles.scss */
 #subscription-bar input[type="email"]:focus::-moz-placeholder {
   /* Mozilla Firefox 19+ */
   color: #e6392f;
   opacity: 1;
 }
-/* line 218, ../sass/styles.scss */
+/* line 219, ../sass/styles.scss */
 #subscription-bar input[type="email"]:focus:-ms-input-placeholder {
   /* Internet Explorer 10+ */
   color: #e6392f;
 }
-/* line 224, ../sass/styles.scss */
+/* line 225, ../sass/styles.scss */
 #subscription-bar input[type="submit"] {
   width: 200px;
   border-radius: 0 8px 8px 0;
@@ -8191,7 +8192,7 @@ header {
   font-weight: bold;
   transition: all 0.2s ease-in-out;
 }
-/* line 232, ../sass/styles.scss */
+/* line 233, ../sass/styles.scss */
 #subscription-bar input[type="submit"]:hover {
   background-color: #fff53d;
   border-color: #000;
@@ -8201,12 +8202,12 @@ header {
   box-shadow: inset 0px 0px 0px 2px #ffe100;
 }
 
-/* line 248, ../sass/styles.scss */
+/* line 250, ../sass/styles.scss */
 footer {
   background-color: #fff;
   border-bottom: none;
 }
-/* line 253, ../sass/styles.scss */
+/* line 255, ../sass/styles.scss */
 footer ul {
   padding-left: 0;
   margin: 0;
@@ -8216,32 +8217,32 @@ footer ul {
   position: relative;
   clear: both;
 }
-/* line 263, ../sass/styles.scss */
+/* line 265, ../sass/styles.scss */
 footer ul li {
   display: inline;
 }
-/* line 267, ../sass/styles.scss */
+/* line 269, ../sass/styles.scss */
 footer ul li a {
   display: inline-block;
   padding: 10px 25px;
 }
-/* line 274, ../sass/styles.scss */
+/* line 276, ../sass/styles.scss */
 footer ul li.footer-divider {
   display: inline-block;
   width: 100px;
 }
 
-/* line 284, ../sass/styles.scss */
+/* line 286, ../sass/styles.scss */
 .story-block {
   text-align: left;
 }
-/* line 288, ../sass/styles.scss */
+/* line 290, ../sass/styles.scss */
 .story-block .story-group {
   display: inline-block;
   padding-left: 25px;
   text-align: center;
 }
-/* line 296, ../sass/styles.scss */
+/* line 298, ../sass/styles.scss */
 .story-block p {
   display: inline-block;
   width: 100%;
@@ -8250,7 +8251,7 @@ footer ul li.footer-divider {
   font-size: 18px;
 }
 
-/* line 310, ../sass/styles.scss */
+/* line 312, ../sass/styles.scss */
 .profile-pic {
   border-radius: 100%;
   border: 2px solid #e6392f;
@@ -8258,15 +8259,15 @@ footer ul li.footer-divider {
   height: 150px;
 }
 
-/* line 317, ../sass/styles.scss */
+/* line 319, ../sass/styles.scss */
 .team-block {
   box-sizing: border-box;
 }
-/* line 321, ../sass/styles.scss */
+/* line 323, ../sass/styles.scss */
 .team-block h1 {
   margin-bottom: 50px;
 }
-/* line 325, ../sass/styles.scss */
+/* line 327, ../sass/styles.scss */
 .team-block .team-item {
   width: 325px;
   height: 500px;
@@ -8281,12 +8282,12 @@ footer ul li.footer-divider {
   border: 2px solid #e0e0e0;
   display: inline-block;
 }
-/* line 341, ../sass/styles.scss */
+/* line 343, ../sass/styles.scss */
 .team-block .team-item p {
   text-align: left;
   font-size: 14px;
 }
-/* line 346, ../sass/styles.scss */
+/* line 348, ../sass/styles.scss */
 .team-block .team-item .title {
   display: block;
   border-bottom: 2px solid #e0e0e0;
@@ -8294,7 +8295,7 @@ footer ul li.footer-divider {
   margin-bottom: 8px;
   font-size: 16px;
 }
-/* line 355, ../sass/styles.scss */
+/* line 357, ../sass/styles.scss */
 .team-block .team-item .team-contact-bar {
   position: absolute;
   bottom: 0;
@@ -8306,15 +8307,15 @@ footer ul li.footer-divider {
   box-sizing: border-box;
   border-top: 2px solid #e0e0e0;
 }
-/* line 372, ../sass/styles.scss */
+/* line 374, ../sass/styles.scss */
 .team-block .team-item .team-contact-bar li {
   display: inline;
 }
-/* line 375, ../sass/styles.scss */
+/* line 377, ../sass/styles.scss */
 .team-block .team-item .team-contact-bar li a {
   padding: 0 4px;
 }
-/* line 379, ../sass/styles.scss */
+/* line 381, ../sass/styles.scss */
 .team-block .team-item .team-contact-bar li:last-child {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   margin-top: 4px;
@@ -8322,11 +8323,11 @@ footer ul li.footer-divider {
   display: block;
 }
 
-/* line 404, ../sass/styles.scss */
+/* line 406, ../sass/styles.scss */
 .contact-block .contact-info-group {
   text-align: left;
 }
-/* line 412, ../sass/styles.scss */
+/* line 414, ../sass/styles.scss */
 .contact-block .contact-info-group .contact-list {
   list-style: none;
   margin: 50px 0;
@@ -8334,13 +8335,13 @@ footer ul li.footer-divider {
   font-size: 24px;
 }
 
-/* line 425, ../sass/styles.scss */
+/* line 427, ../sass/styles.scss */
 .divider {
   display: inline-block;
   width: 50px;
 }
 
-/* line 432, ../sass/styles.scss */
+/* line 434, ../sass/styles.scss */
 #menlo-park-map {
   width: 100%;
   height: 400px;
