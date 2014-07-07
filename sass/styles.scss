@@ -19,6 +19,10 @@ $anvil-red: rgba(230, 57, 47, 1);
 
 $block-red: rgba(179, 30, 21, 1);
 
+// $block-divider-color: rgba(51, 51, 51, .05);
+$block-divider-color: #e0e0e0;
+$block-divider-width: 2px;
+
 
 @keyframes strobe-border {
 	// sun flower
@@ -35,20 +39,20 @@ $block-red: rgba(179, 30, 21, 1);
     100% { border-color: #f1c40f; }
 }
 
-@-webkit-keyframes strobe-border {
-	// sun flower
-    0% { border-color: #f1c40f; }
-    // turquoise
-    25% { border-color: #1abc9c; }
-    // orange
-    50% { border-color: #f39c12; }
-    // pete river
-    // 60% { fill: #3498db; }
-    // alizarin
-    75% { border-color: #e74c3c; }
-    // sun flower
-    100% { border-color: #f1c40f; }
-}
+// @-webkit-keyframes strobe-border {
+// 	// sun flower
+//     0% { border-color: #f1c40f; }
+//     // turquoise
+//     25% { border-color: #1abc9c; }
+//     // orange
+//     50% { border-color: #f39c12; }
+//     // pete river
+//     // 60% { fill: #3498db; }
+//     // alizarin
+//     75% { border-color: #e74c3c; }
+//     // sun flower
+//     100% { border-color: #f1c40f; }
+// }
 
 
 a {
@@ -74,7 +78,7 @@ body {
 
 
 header {
-	// border-bottom: 1px solid #a2a2a2;
+	border-bottom: $block-divider-width solid $block-divider-color;
 }
 .header-nav {
 
@@ -153,6 +157,7 @@ header {
 	@extend .row;
 	padding: 50px 25px;
 	margin: 0;
+	color: #333;
 	// border-top: 3px solid rgba(230, 57, 47, .05);
 	box-sizing: border-box;
 	text-align: center;
@@ -160,16 +165,19 @@ header {
 	
 	// border: 3px solid rgba(0,0,0,0);
 	background-color: #f2f2f2;
+	border-bottom: $block-divider-width solid $block-divider-color;
+}
+
+.block-pop {
+	@extend .block;
+	background-color: $block-red;
+	color: white;
 }
 
 .hero-block {
-	@extend .block;
+	@extend .block-pop;
 	// background-image: url(../img/shattered_@2X.png);
 
-	animation: strobe-border 5s infinite ease-in-out;
-	-webkit-animation: strobe-border 5s infinite ease-in-out;
-	background-color: $block-red;
-	color: white;
 
 	img {
 		width: 500px;
@@ -201,7 +209,7 @@ header {
 	margin-top:25px;
 
 	input {
-		border: 3px solid black;
+		border: 3px solid #333;
 		line-height: 45px;
 		vertical-align: middle;
 		padding: 5px;
@@ -214,12 +222,13 @@ header {
 		width: 400px;
 		border-radius: 8px 0 0 8px;
 		padding-left: 20px;
+		color: #333;
 	}
 	input[type="submit"] {
 		width: 200px;
 		border-radius: 0 8px 8px 0;
 		background-color: #FFE100;
-		color: black;
+		color: #333;
 		font-weight: bold;
 		
 	}
@@ -230,7 +239,7 @@ header {
 footer {
 	@extend .block;
 	background-color: #fff;
-	border-color: #f2f2f2;
+	border-bottom: none;
 
 	ul {
 		padding-left: 0;
@@ -265,8 +274,6 @@ footer {
 
 .story-block {
 	@extend .block;
-	background-color: $block-red;
-	border-color: #333;
 	text-align: left;
 	
 	.story-group {
@@ -277,26 +284,24 @@ footer {
 
 	}
 
-	h1 {
-		color: #fff;
-		
-
-	}
-
 	p {
 		display: inline-block;
 		width: 100%;
 		line-height: 2.5;
 		margin: 15px 0;
 		font-size: 18px;
-		color: #fff;
 	}
+
+}
+
+.mission-block {
+	@extend .block-pop;
 
 }
 
 .profile-pic {
 	border-radius: 100%;
-	border: 4px solid #e0e0e0;
+	border: 2px solid $anvil-red;
 	width: 150px;
 	height: 150px;
 }
@@ -304,7 +309,6 @@ footer {
 .team-block {
 	@extend .block;
 	// background-image: url(../img/shattered_@2X.png);
-	border-color: #1abc9c;
 	box-sizing: border-box;
 	h1 {
 		margin-bottom: 50px;
@@ -339,16 +343,6 @@ footer {
 			font-size: 16px;
 		}
 
-		.profile-cofounder {
-			@extend .profile-pic;
-			border-color: $anvil-red;
-			
-		}
-
-		.profile-team {
-			@extend .profile-pic;
-
-		}
 
 		.team-contact-bar {
 			position: absolute;
@@ -398,7 +392,6 @@ footer {
 
 .contact-block {
 	@extend .block;
-	border-color: #f1c40f;
 
 	.map-group {
 		@extend .col-xs-12;
