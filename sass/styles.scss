@@ -68,6 +68,10 @@ header {
 		padding: 7px 0 0 20px; 
 		font-family: 'Lato', Helvetica, Arial, sans-serif;
 		display: inline-block;
+
+		&:hover {
+			text-decoration: none;
+		}
 	
 		img {
 			height: 60px;

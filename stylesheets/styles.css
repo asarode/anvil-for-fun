@@ -8051,10 +8051,14 @@ header {
   display: inline-block;
 }
 /* line 72, ../sass/styles.scss */
+.header-nav .brand-group:hover {
+  text-decoration: none;
+}
+/* line 76, ../sass/styles.scss */
 .header-nav .brand-group img {
   height: 60px;
 }
-/* line 76, ../sass/styles.scss */
+/* line 80, ../sass/styles.scss */
 .header-nav .brand-group span {
   font-size: 50px;
   vertical-align: top;
@@ -8063,14 +8067,14 @@ header {
   color: #e6392f;
   font-weight: bold;
 }
-/* line 85, ../sass/styles.scss */
+/* line 89, ../sass/styles.scss */
 .header-nav .brand-group .beta-tag {
   font-size: 12px;
   color: #333;
   position: relative;
   top: 7px;
 }
-/* line 93, ../sass/styles.scss */
+/* line 97, ../sass/styles.scss */
 .header-nav ul {
   list-style: none;
   padding: 0 !important;
@@ -8080,60 +8084,60 @@ header {
   top: 0;
   right: 0;
 }
-/* line 103, ../sass/styles.scss */
+/* line 107, ../sass/styles.scss */
 .header-nav ul li {
   display: inline;
   height: 100%;
   margin: 0;
   float: right;
 }
-/* line 108, ../sass/styles.scss */
+/* line 112, ../sass/styles.scss */
 .header-nav ul li a {
   display: inline-block;
   padding: 22px 25px;
   font-size: 18px;
   border-top: 2px solid rgba(0, 0, 0, 0);
 }
-/* line 114, ../sass/styles.scss */
+/* line 118, ../sass/styles.scss */
 .header-nav ul li a:hover {
   transition: background-color, border-top .35s ease;
   background-color: #f2f2f2;
   border-top: 2px solid #e6392f;
 }
-/* line 127, ../sass/styles.scss */
+/* line 131, ../sass/styles.scss */
 .header-nav ul .nav-pop-item {
   font-weight: bold;
   background-color: #fcfcfc;
 }
 
-/* line 145, ../sass/styles.scss */
+/* line 149, ../sass/styles.scss */
 .hero-block img {
   width: 500px;
   height: 400px;
 }
 
-/* line 151, ../sass/styles.scss */
+/* line 155, ../sass/styles.scss */
 .info-block {
   background-color: #f2f2f2;
 }
-/* line 158, ../sass/styles.scss */
+/* line 162, ../sass/styles.scss */
 .info-block ul {
   list-style: none;
   padding: 0 !important;
 }
-/* line 162, ../sass/styles.scss */
+/* line 166, ../sass/styles.scss */
 .info-block ul li {
   font-size: 24px;
   line-height: 2;
   margin-bottom: 25px;
 }
 
-/* line 173, ../sass/styles.scss */
+/* line 177, ../sass/styles.scss */
 #subscription-bar {
   text-align: center;
   margin-top: 25px;
 }
-/* line 177, ../sass/styles.scss */
+/* line 181, ../sass/styles.scss */
 #subscription-bar input {
   border: 3px solid #333;
   line-height: 45px;
@@ -8141,7 +8145,7 @@ header {
   padding: 5px;
   font-size: 18px;
 }
-/* line 187, ../sass/styles.scss */
+/* line 191, ../sass/styles.scss */
 #subscription-bar input.email-box {
   width: 400px;
   border-radius: 8px 0 0 8px;
@@ -8149,41 +8153,41 @@ header {
   color: #333;
   transition: all 0.2s ease-in-out;
 }
-/* line 194, ../sass/styles.scss */
+/* line 198, ../sass/styles.scss */
 #subscription-bar input.email-box:hover {
   border-color: #000;
 }
-/* line 198, ../sass/styles.scss */
+/* line 202, ../sass/styles.scss */
 #subscription-bar input.email-box:focus {
   outline: none;
   -webkit-box-shadow: 0px 0px 10px 0px rgba(255, 236, 23, 0.68);
   -moz-box-shadow: 0px 0px 10px 0px rgba(255, 236, 23, 0.68);
   box-shadow: 0px 0px 10px 0px rgba(255, 236, 23, 0.68);
 }
-/* line 206, ../sass/styles.scss */
+/* line 210, ../sass/styles.scss */
 #subscription-bar input.email-box:focus::-webkit-input-placeholder {
   /* WebKit browsers */
   opacity: 0.2;
   transition: opacity 0.5s ease-in-out;
 }
-/* line 211, ../sass/styles.scss */
+/* line 215, ../sass/styles.scss */
 #subscription-bar input.email-box:focus:-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
   color: #e6392f;
   opacity: 1;
 }
-/* line 215, ../sass/styles.scss */
+/* line 219, ../sass/styles.scss */
 #subscription-bar input.email-box:focus::-moz-placeholder {
   /* Mozilla Firefox 19+ */
   color: #e6392f;
   opacity: 1;
 }
-/* line 219, ../sass/styles.scss */
+/* line 223, ../sass/styles.scss */
 #subscription-bar input.email-box:focus:-ms-input-placeholder {
   /* Internet Explorer 10+ */
   color: #e6392f;
 }
-/* line 225, ../sass/styles.scss */
+/* line 229, ../sass/styles.scss */
 #subscription-bar input.submit-box {
   width: 200px;
   border-radius: 0 8px 8px 0;
@@ -8192,7 +8196,7 @@ header {
   font-weight: bold;
   transition: all 0.2s ease-in-out;
 }
-/* line 233, ../sass/styles.scss */
+/* line 237, ../sass/styles.scss */
 #subscription-bar input.submit-box:hover {
   background-color: #fff53d;
   border-color: #000;
@@ -8202,12 +8206,12 @@ header {
   box-shadow: inset 0px 0px 0px 2px #ffe100;
 }
 
-/* line 250, ../sass/styles.scss */
+/* line 254, ../sass/styles.scss */
 footer {
   background-color: #fff;
   border-bottom: none;
 }
-/* line 255, ../sass/styles.scss */
+/* line 259, ../sass/styles.scss */
 footer ul {
   padding-left: 0;
   margin: 0;
@@ -8217,32 +8221,32 @@ footer ul {
   position: relative;
   clear: both;
 }
-/* line 265, ../sass/styles.scss */
+/* line 269, ../sass/styles.scss */
 footer ul li {
   display: inline;
 }
-/* line 269, ../sass/styles.scss */
+/* line 273, ../sass/styles.scss */
 footer ul li a {
   display: inline-block;
   padding: 10px 25px;
 }
-/* line 276, ../sass/styles.scss */
+/* line 280, ../sass/styles.scss */
 footer ul li.footer-divider {
   display: inline-block;
   width: 100px;
 }
 
-/* line 286, ../sass/styles.scss */
+/* line 290, ../sass/styles.scss */
 .story-block {
   text-align: left;
 }
-/* line 290, ../sass/styles.scss */
+/* line 294, ../sass/styles.scss */
 .story-block .story-group {
   display: inline-block;
   padding-left: 25px;
   text-align: center;
 }
-/* line 298, ../sass/styles.scss */
+/* line 302, ../sass/styles.scss */
 .story-block p {
   display: inline-block;
   width: 100%;
@@ -8251,7 +8255,7 @@ footer ul li.footer-divider {
   font-size: 18px;
 }
 
-/* line 312, ../sass/styles.scss */
+/* line 316, ../sass/styles.scss */
 .profile-pic {
   border-radius: 100%;
   border: 2px solid #e6392f;
@@ -8259,15 +8263,15 @@ footer ul li.footer-divider {
   height: 150px;
 }
 
-/* line 319, ../sass/styles.scss */
+/* line 323, ../sass/styles.scss */
 .team-block {
   box-sizing: border-box;
 }
-/* line 323, ../sass/styles.scss */
+/* line 327, ../sass/styles.scss */
 .team-block h1 {
   margin-bottom: 50px;
 }
-/* line 327, ../sass/styles.scss */
+/* line 331, ../sass/styles.scss */
 .team-block .team-item {
   width: 325px;
   height: 500px;
@@ -8282,12 +8286,12 @@ footer ul li.footer-divider {
   border: 2px solid #e0e0e0;
   display: inline-block;
 }
-/* line 343, ../sass/styles.scss */
+/* line 347, ../sass/styles.scss */
 .team-block .team-item p {
   text-align: left;
   font-size: 14px;
 }
-/* line 348, ../sass/styles.scss */
+/* line 352, ../sass/styles.scss */
 .team-block .team-item .title {
   display: block;
   border-bottom: 2px solid #e0e0e0;
@@ -8295,7 +8299,7 @@ footer ul li.footer-divider {
   margin-bottom: 8px;
   font-size: 16px;
 }
-/* line 357, ../sass/styles.scss */
+/* line 361, ../sass/styles.scss */
 .team-block .team-item .team-contact-bar {
   position: absolute;
   bottom: 0;
@@ -8307,15 +8311,15 @@ footer ul li.footer-divider {
   box-sizing: border-box;
   border-top: 2px solid #e0e0e0;
 }
-/* line 374, ../sass/styles.scss */
+/* line 378, ../sass/styles.scss */
 .team-block .team-item .team-contact-bar li {
   display: inline;
 }
-/* line 377, ../sass/styles.scss */
+/* line 381, ../sass/styles.scss */
 .team-block .team-item .team-contact-bar li a {
   padding: 0 4px;
 }
-/* line 381, ../sass/styles.scss */
+/* line 385, ../sass/styles.scss */
 .team-block .team-item .team-contact-bar li:last-child {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   margin-top: 4px;
@@ -8323,11 +8327,11 @@ footer ul li.footer-divider {
   display: block;
 }
 
-/* line 406, ../sass/styles.scss */
+/* line 410, ../sass/styles.scss */
 .contact-block .contact-info-group {
   text-align: left;
 }
-/* line 414, ../sass/styles.scss */
+/* line 418, ../sass/styles.scss */
 .contact-block .contact-info-group .contact-list {
   list-style: none;
   margin: 50px 0;
@@ -8336,13 +8340,13 @@ footer ul li.footer-divider {
   line-height: 2;
 }
 
-/* line 428, ../sass/styles.scss */
+/* line 432, ../sass/styles.scss */
 .divider {
   display: inline-block;
   width: 50px;
 }
 
-/* line 435, ../sass/styles.scss */
+/* line 439, ../sass/styles.scss */
 #menlo-park-map {
   width: 100%;
   height: 400px;
